@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 import tensorflow as tf
 import tensorflow_io as tfio
 
+# Path to the audio files
 CAPUCHIN_FILE = os.path.join(
     'data', 'Parsed_Capuchinbird_Clips', 'XC3776-3.wav')
 NOT_CAPUCHIN_FILE = os.path.join(
